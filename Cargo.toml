@@ -1,0 +1,13 @@
+[package]
+name = "clap-test"
+description = "The main crate in the workspace"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    "sub"
+]
+
+[dependencies]
+sub = { version = "0.1.0", package = "sub", path = "sub" }
