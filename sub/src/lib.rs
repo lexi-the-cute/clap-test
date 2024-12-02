@@ -3,7 +3,7 @@ use clap::Parser;
 #[derive(Parser, Debug, Clone)]
 #[command(
     author,
-    about,
+    about,  //="The main crate in the workspace",
     long_about = None
 )]
 /// List of possible command line arguments
